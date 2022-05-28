@@ -19,11 +19,11 @@ else {
 }
 
 if (num1 === num2) {
-    console.log(`Os numeros ${num1} e ${num2} são iguais. Sua soma é ${soma}, ${maiorMenor}`)
+    console.log(`Os numeros ${num1} e ${num2} são iguais. Sua soma é ${soma}, ${maiorMenor}`);
 }
 
 else {
-    console.log(`Os numeros ${num1} e ${num2} não são iguais. Sua soma é ${soma}, ${maiorMenor}`)
+    console.log(`Os numeros ${num1} e ${num2} não são iguais. Sua soma é ${soma}, ${maiorMenor}`);
 }
    
 }
