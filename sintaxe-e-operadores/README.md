@@ -1,3 +1,5 @@
+<h3>Desafio feito porem com a lógica de uma função somente para executar todas as comparações e fazer o print do resultado.
+
 # Sintaxe e Operadores
 
 Este repositório contém a atividade prática do Curso "Sintaxe e Operadores", que faz parte do Basecamp de Javascript que minstrei pela [Digital Innovation One](https://digitalinnovation.one/).
