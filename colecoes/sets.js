@@ -1,8 +1,9 @@
-function uniqueElements(array) {
-	let unique = new Set(array);
-	return [...unique];
+const meuArray = [30, 20, 20, 20, 50, 48, 15, 3045, 2];
+
+function valoresUnicos(arr) {
+    const mySet = new Set(arr);
+
+    return [...mySet];
 }
 
-const arr = [30, 30, 40, 5, 223, 2049, 3034, 5];
-
-console.log(uniqueElements(arr));
+console.log(valoresUnicos(meuArray));

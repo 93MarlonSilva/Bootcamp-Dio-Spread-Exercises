@@ -1,21 +1,17 @@
-const getAdmins = (map) => {
-	let admins = [];
+function getAdmins(map) {
+    let admins = [];
+    for([key, value] of map) {
+        if(value === 'Admin'){
+            admins.push(' ' + key);
+        }
+    }
+  return 'Os usuarios cadastrados como administrador são:' + admins;
+}
 
-	for ([key, value] of map) {
-		if (value === 'ADMIN') {
-			admins.push(key);
-		}
-	}
+const usuarios = new Map();
 
-	return admins;
-};
+usuarios.set('Luis', 'Admin');
+usuarios.set('Paulo', 'User');
+usuarios.set('Ana', 'Admin');
 
-const userRoles = new Map();
-
-userRoles.set('Stephany', 'SUDO');
-userRoles.set('Luiz', 'ADMIN');
-userRoles.set('Elvira', 'ADMIN');
-userRoles.set('Carolina', 'USER');
-userRoles.set('Guilherme', 'USER');
-
-console.log(getAdmins(userRoles));
+console.log(getAdmins(usuarios));
